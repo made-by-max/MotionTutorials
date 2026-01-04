@@ -9,7 +9,7 @@ import EnterAnimation from "./components/EnterAnimation";
 export default function Home() {
   return (
     <div>
-      <EnterAnimation />
+      <Drag />
     </div>
   );
 }
