@@ -13,11 +13,13 @@ import Rotate from "./components/Rotate";
 import TransitionOptions from "./components/TransitionOptions";
 import UseAnimationFrame from "./components/UseAnimationFrame";
 import FollowCursor from "./components/FollowCursor";
+import AnimatePresence from "./components/AnimatePresence";
+import ModeTest from "./components/ModeTest";
 
 export default function Home() {
   return (
     <div>
-      <FollowCursor />
+      <ModeTest />
     </div>
   );
 }
